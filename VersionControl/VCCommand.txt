@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------
+LOCAL IMPLEMENTATIONS OF GIT, 'SAVING THIS VERSION ON OUR COMPUTER LOCALLY'
+----------------------------------------------------------------------------
+
+WORKING DIRECTORY: Is a Directory where you initialize your git repository. 
+
+git init = it's initialized an empty git repository inside the directory.
+ls -a = list all files including hidden files.
+git status = to see what's currently inside your staging area. It shows you the untracked files which will be shown in red and this is something that's simply inside your working directory, but it's not yet in the staging.
+
+
+
+
+
+STAGING AREA: Sometimes you might not want to add all of your files to be tracked or all of your files to be committed. Staging area is a good place to try  and figure out what are the things that you want to Git to ignore, or things that you want to be tracked.
+
+git add = In order to add the changes you have made to the staging area and to start tracking changes in it. Meaning it's now in the staging area and it's ready to be commited. 
+
+
+
+GIT REPOSITORY: So now our file is inside our local repository and that version is given a name through the commit message (-m flag). That means even if we've messed up our file, we can still use the last version that's under version control and we can use a special command called, "git checkout", to revert back or roll back to the last position in our local repository. 
+
+COMMIT UNDER VERSION CONTROL. 
+
+git commit -m "" = commit changes under version control (-m flag 'message' must be present tense)
+git log = You will see what commit was made at this time by this person. 
+git add . = Add all the changes you have made to the staging area.
+git diff [file name] = to check what are the differences between the current version of a file and the last save point of that file.
+git checkout [file name] = to revert back or roll back to the last position in our local repository. [The file has been restored to it's previous glorious state.
+
+
+
+

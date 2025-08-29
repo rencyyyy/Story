@@ -1,0 +1,26 @@
+ls = list all folder inside (root directory)
+cd = change directory
+cd ~ = back to root directory
+cd Desktop/New Folder/New Folder/ =  make it simple and faster 
+cd .. = back one level
+mkdir New Folder = Create new folder
+touch New File.txt = Create new text file
+open New File.txt = Open the file using the default app (MAC)
+start New File.txt = Open the file using the default app (Windows)
+open -a /Applications/Visual\ Studio\ Code.app/New File.txt = specify which application you want to open the file in (Mac)
+rm New File.txt = remove file 
+rm * = remove all files in you current folder location
+rm -r New Folder = remove folder including all the files and folder inside the folder
+clear = clear all command
+pwd = Tells you your entire path and your current folder location 
+
+
+
+
+EDIT
+
+up button = use the last command that you typed
+alt + cursor = edit command line
+ctrl + A = go to the beginning of command line
+ctrl + E = go to the end of command line
+ctrl + U = Clears entire command line (enable to create new command line)
